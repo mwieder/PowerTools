@@ -1,0 +1,54 @@
+PowerTools Release Notes
+
+Documentation is at https://www.ahsoftware.net/PowerTools/PowerTools2.lc
+
+PowerTools 2.4.0
+2026.07.25
+Added default scripts for menuButtons
+Modified coloring for HyperXTalk dark mode switching
+
+PowerTools 2.3.9
+2026.06.04
+Dark mode compatibility
+OXT Dark mode switching enabled:
+dispatch "darkmode" to stack "revTools" with true|false
+
+PowerTools 2.3.3
+2023.03.05
+Update check is hidden/not needed for github
+
+PowerTools 2.3.2
+2023.03.04
+Fixed update check libSetURLVerification on OSX
+
+PowerTools 2.3.0
+2023.04.19
+LiveCode 10.0.0-dp5 broke a few things
+Widget datagrid no longer uses a hardcoded mainstack name
+Renaming the stack is now deferred by a "send in time" call
+The image libraries are now referred to by long id
+
+PowerTools 2.2.9
+2023.02.04
+CheckForUpdate now allows version 2.4 as well as 2.4.0 in future builds
+Fixed ImageLibrary actions
+Fixed: Object creation was eating custom template properties
+Fixed OSX progressbar image/graphic confusion
+CheckForUpdate puts widgets in proper subfolders
+CheckForUpdate allows optionally *not* overwriting existing widgets
+Updated some widgets
+
+PowerTools 2.2.8
+2022.09.11
+Renamed wantToDownload stack to remove conflict with PowerDebug
+
+PowerTools 2.2.7
+2022.08.12
+On update check, display release notes if available.
+
+PowerTools 2.2.6
+2022.08.10
+On update install the default custom controls.
+
+known issues:
+on update, if default custom controls have been moved into folders they'll be replicated in the main "PowerTools Widgets/Widgets" folder. Fixing that is messy.
